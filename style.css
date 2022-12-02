@@ -12,7 +12,7 @@ header{
 }
 .primeiroconteudo{
   background-color: #294f38;
-  margin: 80px 20px ;
+  margin: 80px 60px ;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -33,7 +33,7 @@ h1,p{
 nav{
   font-family: 'Raleway';
   width: auto;
-  margin:80px 20px;
+  margin:80px 60px;
   background-color: #294f38;
   display: flex;
   flex-direction: column;
@@ -46,6 +46,101 @@ ul{
   }
 li{
 list-style: none;
+}
+h1 {
+  text-align: center;
+  margin: 1em 0;
+  color: #294f38;
+}
+
+.container {
+background-color: #294f38; 
+position: relative;
+  margin: 20px 60px 0px;
+  padding: 80px;
+ 
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+  
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.2;
+}
+
+.current-item {
+  opacity: 1;
+}
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
+.gallery-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.cyan {
+  background: cyan;
+}
+
+.deeppink {
+  background: deeppink;
+}
+
+.turquoise {
+  background: turquoise;
+}
+
+.darkblue {
+  background: darkblue;
+}
+
+.purple {
+  background: purple;
 }
 
 
