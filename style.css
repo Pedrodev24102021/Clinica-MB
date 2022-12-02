@@ -17,8 +17,7 @@ header{
   grid-template-columns: 1fr 1fr;
 }
 .imagembanner{
-  width:700px;
-  margin: 0px 0px -4px 0px;
+  width:100%;
 }
 .apresentacao {
   color: #ecf0f1;
