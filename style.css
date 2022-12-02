@@ -59,8 +59,7 @@ list-style: none;
   
   }
   .imagembanner{
-    width:400px;
-    height: 350px;
+    width:100%;
     margin: 0px 0px -4px 0px;
   }
   .apresentacao {
@@ -88,8 +87,7 @@ ul{
     justify-content: center;
   }
   .imagembanner{
-    width:362px;
-    margin: 0px 0px -4px 0px;
+    width:100%;
   }
   .apresentacao {
     color: #ecf0f1;
