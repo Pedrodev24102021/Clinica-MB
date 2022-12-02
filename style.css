@@ -23,7 +23,7 @@ header{
   color: #ecf0f1;
   font-family: 'Raleway';
   margin: 20px 0px 0px 60px;
-  max-width: 40ch;
+  max-width: 60ch;
 }
 h1,p{
   color: #ecf0f1;
@@ -65,7 +65,7 @@ list-style: none;
     color: #ecf0f1;
     font-family: 'Raleway';
     margin: 0px 0px 0px 4px;
-    max-width: 40ch;
+    max-width: 60ch;
  
 }
 nav{
@@ -92,7 +92,7 @@ ul{
     color: #ecf0f1;
     font-family: 'Raleway';
     margin: 0px 0px 0px 4px;
-    max-width: 20ch;
+    max-width: 60ch;
  
 }
 nav{
