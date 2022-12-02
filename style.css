@@ -170,7 +170,7 @@ nav{
   width: auto;
   align-items: center;
   background-color: #294f38;
-  margin: none;
+  margin: 40px 20px;;
 }
 ul{
   display: grid;
