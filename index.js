@@ -31,3 +31,19 @@ controls.forEach((control) => {
     items[currentItem].classList.add('current-item');
   });
 });
+const saida = document.querySelector('.saida');
+
+function digitacao(texto, contador) {
+  if (contador < texto.length) {
+    setTimeout(() => {
+      saida.textContent += texto.charAt(contador);
+      contador++;
+      digitacao(texto, contador);
+    }, 50);
+  }
+}
+
+digitacao(
+  'A MB estética personalizada foi fundada a quatro anos,Promovendo tratamentos para pele,corpo e mente,Durante essa tragetória vem reavendo e aumentando a autoestima de centenas de clientes!',
+  0,
+);
