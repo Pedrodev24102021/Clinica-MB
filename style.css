@@ -16,6 +16,10 @@ header{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+#primeirotexto{
+  font-size: 1.3rem;
+  max-width: 30ch;
+}
 .imagembanner{
   width:700px;
   margin: 0px 0px -4px 0px;
@@ -46,19 +50,17 @@ ul{
   }
 li{
 list-style: none;
+color: #ecf0f1;
 }
 h1 {
   text-align: center;
   margin: 1em 0;
-
 }
-
 .container {
 background-color: #294f38; 
 position: relative;
   margin: 20px 60px 0px;
-  padding: 10px;
- 
+  padding: 50px;
 }
 
 .gallery-wrapper {
@@ -103,8 +105,8 @@ position: relative;
 }
 
 .item {
-  width: 100%
-;
+  width: 300px;
+  height: 300px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
   opacity: 0.2;
@@ -142,7 +144,25 @@ position: relative;
 .purple {
   background: purple;
 }
-
+.itemcard{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.pitemdard{
+  max-width: 30ch;
+}
+a{
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-color:#999;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+a:hover{
+  color: #294f38;
+}
 
 @media screen and (max-width: 1100px){
   .primeiroconteudo{
@@ -152,6 +172,10 @@ position: relative;
     justify-content: center;
     display: flex;
     flex-direction: column;
+  }
+  #primeirotexto{
+    font-size: 1.3rem;
+    max-width: 30ch;
   }
   .imagembanner{
     width:100%;
@@ -165,22 +189,25 @@ position: relative;
     max-width: 60ch;
  
 }
+.container {
+
+  background-color: #294f38; 
+  position: relative;
+    margin: 20px 20px 0px;
+    padding: 50px;
+  }
+
 nav{
   font-family: 'Raleway';
   width: auto;
   align-items: center;
   background-color: #294f38;
-  margin: 40px 20px;;
+  margin: 40px 20px;
 }
 ul{
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-.container {
-background-color: #294f38; 
-position: relative;
-  margin: 40px 20px;
-  padding: 80px;
 }
 @media screen and (max-width: 600px){
 ul{
