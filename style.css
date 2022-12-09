@@ -5,14 +5,10 @@ body{
   background: color #999;
 }
 header{
-margin-top:0px;
-  position:fixed;
   display: flex;
   text-align: center;
   justify-content: center;
   background-color: #294f38;
-z-index:100;
-widht:100%;
 }
 #div{
   text-align: center;
