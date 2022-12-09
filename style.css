@@ -198,22 +198,22 @@ a:hover{
     text-align: center;
   }
   #watssap{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #294f38;
     position: fixed;
     left: 82%;
-    top: 80%;
+    top: 76%;
     z-index: 100;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2.8rem;
   }
   #div a:hover{
     color: #999;
   }
   .fa-whatsapp{
-    margin-top: 4px;
+    margin-top: 1px;
   }
   .primeiroconteudo{
     margin: 80px 20px;
