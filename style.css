@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 body{
-  margin: 0px;
+  margin: 0px 0px;
   border: 0px;
   background: color #999;
 }
+#imglogo{
+  width: 80px;
+}
 header{
-  display: flex;
   text-align: center;
-  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+ 
   background-color: #294f38;
+  z-index: 1000;
 }
 #div{
   text-align: center;
@@ -33,7 +39,7 @@ header{
 }
 .primeiroconteudo{
   background-color: #294f38;
-  margin: 80px 60px ;
+  margin: 160px 60px ;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -67,7 +73,7 @@ nav{
 }
 #vejamais{
   position: absolute;
-  top: 66rem;
+  top: 71rem;
   left: 40rem;
 }
 ul{
@@ -216,7 +222,7 @@ a:hover{
     margin-top: 1px;
   }
   .primeiroconteudo{
-    margin: 80px 20px;
+    margin: 126px 20px;
     background-color: #294f38;
     align-items: center;
     justify-content: center;
@@ -242,7 +248,7 @@ a:hover{
 #vejamais{
   position: absolute;
   top: 97rem;
-  left: 10rem;
+  left: 12rem;
 }
 .procedimentospng{
   width: 160px;
